@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Site</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+ 
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <h1>Título</h1>
+      <h2>Subtítulo</h2>
+      <button onclick="redirectToPage('informacoesdaempresa.html')">Opção 1</button>
+      <button onclick="redirectToPage('pagina2.html')">Opção 2</button>
+      <button onclick="redirectToPage('pagina3.html')">Opção 3</button>
+      <div id="opcao1" class="options hidden">
+        <h3>Opção 1</h3>
+        <p>Informações sobre a Opção 1</p>
+      </div>
+      <div id="opcao2" class="options hidden">
+        <h3>Opção 2</h3>
+        <p>Informações sobre a Opção 2</p>
+      </div>
+      <div id="opcao3" class="options hidden">
+        <h3>Opção 3</h3>
+        <p>Informações sobre a Opção 3</p>
+      </div>
+    </div>
+    <div class="right-column">
+      <h3>Anexos de Links</h3>
+      <ul>
+        <li><a id="link1" href="https://wa.me/qr/FIQYQ5CYQXUDO1"><img src="whats.png" alt="Imagem 1"></a></li>
+        <li><a id="link2" href="https://instagram.com/arcoiresdocesabor?igshid=MzRlODBiNWFlZA=="><img src="instagram.png" alt="Imagem 2"></a></li>
+        <li><a id="link3" href="https://www.techtudo.com.br/busca/?q=ifood"><img src="ifood.png" alt="Imagem 3"></a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

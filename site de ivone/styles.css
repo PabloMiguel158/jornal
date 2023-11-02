@@ -1,0 +1,80 @@
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Centraliza os itens na horizontal */
+  align-items: center; /* Centraliza os itens na vertical */
+  min-height: 100vh; /* Define a altura mínima da tela como 100% da altura da viewport */
+}
+
+.left-column {
+  width: 30%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: left; /* Alinhamento esquerdo para os botões */
+}
+
+.right-column {
+  width: 50%; /* Ajuste a largura conforme necessário */
+  padding: 20px;
+  background-color: #e0e0e0;
+  text-align: right; /* Alinhamento direito para os links */
+}
+
+.right-column h3 {
+  text-align: left; /* Alinhamento esquerdo para os títulos */
+}
+
+/* Estilo para os botões de opção */
+.left-column button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Estilo para a área de anexos de links */
+.right-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.right-column ul li {
+  margin-bottom: 20px;
+}
+
+.right-column ul li img {
+  max-width: 14%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  height: auto; /* Mantém a proporção da altura */
+  display: block; /* Corrige o espaçamento indesejado em alguns navegadores */
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.options.hidden {
+  display: none;
+}
+
+.options h3 {
+  margin-top: 10px;
+}
+
+.options p {
+  margin-bottom: 10px;
+}
+
+/* Adicione outras regras de estilo conforme necessário */
+
